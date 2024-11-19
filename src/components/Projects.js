@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import baanerbkg from "../assets/img/bannerbkg.jpg"
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/projectImg1.png";
+import projImg2 from "../assets/img/projectImg2.png";
+import projImg3 from "../assets/img/projectImg3.png";
 
 export const Projects = () => {
 
@@ -22,7 +22,7 @@ export const Projects = () => {
         },
         {
             title: "ChatGpt",
-            descrption: "With an elegant user interface that resembles the ChatGPT app, communication with advanced GPT3 model API, and most importantly, the ability to ask the AI for help regarding any programming language, giving it code and translating it to another programming language, and much more",
+            descrption: "With an elegant user interface that resembles the ChatGPT app, communication with advanced GPT3 model API, and most importantly, the ability to ask the AI for help regarding any programming language, giving it code and translating it to another programming language, and much more".,
             tech:"API, JavaScript",
             imgUrl : projImg3,
         },
